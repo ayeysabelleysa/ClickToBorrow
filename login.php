@@ -73,6 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo.png">
     <title>Click to Borrow - Login</title>
     <link rel="stylesheet" href="login.css" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
@@ -81,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container">
         <div class="card">
             <h2>Welcome Back to</h2>
-            <img src="clicktoborrow2.png" class="logo" style="height: 130px;" alt="Click to Borrow system logo">
+            <img src="logo.png" class="logo" style="height: 130px;" alt="Click to Borrow logo">
             <p class="subtitle">"Fast, Easy, Reliable – Borrow IT Equipment with a Click!"</p>
             
             <form action="login.php" method="POST">
