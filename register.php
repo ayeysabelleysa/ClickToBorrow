@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="register-card">
             <form action="register.php" method="POST">
                 <br>
-            <img src="logo.png" class="logo" style="height: 130px;" alt="logo">
+            <img src="clicktoborrow2.png" class="logo" style="height: 130px;" alt="Click to Borrow system logo">
                 <p style="font-size: 13px; font-style: italic; color: #777;">Create your account.</p>
 
                 <div class="input-group">

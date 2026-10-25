@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
     <nav class="navbar">
-            <img src="logo.png" class="logo" style="height: 130px;">
+            <img src="clicktoborrow2.png" class="logo" style="height: 100px;" alt="Click to Borrow system logo">
         <div class="nav-links">
             <a href="login.php">Log in</a>
             <a href="register.php" class="register">Register</a>

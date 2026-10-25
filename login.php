@@ -81,7 +81,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container">
         <div class="card">
             <h2>Welcome Back to</h2>
-            <img src="logo.png" class="logo" style="height: 130px;" alt="logo">
+            <img src="clicktoborrow2.png" class="logo" style="height: 130px;" alt="Click to Borrow system logo">
             <p class="subtitle">"Fast, Easy, Reliable – Borrow IT Equipment with a Click!"</p>
             
             <form action="login.php" method="POST">
