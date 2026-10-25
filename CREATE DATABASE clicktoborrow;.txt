@@ -1,0 +1,24 @@
+CREATE DATABASE clicktoborrow;
+USE clicktoborrow;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE borrow_requests (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    item VARCHAR(50) NOT NULL,
+    date DATE NOT NULL,
+    start_time TIME NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+ALTER TABLE borrow_requests ADD user_email VARCHAR(255);
+
+
+ALTER TABLE borrow_requests ADD COLUMN status ENUM('borrowed', 'returned', 'overdue', 'pending') DEFAULT 'pending';
+
+ALTER TABLE users 
+ADD COLUMN school ENUM('SET', 'SAS', 'STHM', 'SBA', 'SOA') NOT NULL DEFAULT 'SET'; 

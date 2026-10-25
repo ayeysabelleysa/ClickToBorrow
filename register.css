@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 115vh;
+    background: linear-gradient(white,#3655b3);      
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.register-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: 450px;
+    height: 710px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #3655b3;
+    color: white;
+    margin-top: 1rem;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover {
+    transition: 0.4s ease;
+    background-color: #e5e5e5;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 0.3rem;
+}
+
+.input-group input {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    margin-bottom: 15px; 
+}
+
+.input-group select, .input-group input {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 15px; 
+}   
+
+.show-password-container {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #777; 
+    margin-top: -10px;
+}
+
+.show-password {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/* Login Text */
+.login-text {
+    font-size: 0.85rem;
+    color: #555;
+    margin-top: 1rem;
+}
+
+.backlogin {
+    color: #e57c25;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.backlogin:hover {
+    color: black;
+    text-decoration: underline;
+}

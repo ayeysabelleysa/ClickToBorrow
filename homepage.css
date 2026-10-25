@@ -1,0 +1,202 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(white,#DAA520) ;          
+    min-height: 100vh;
+  
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+    background-color: #FDFBF7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: #3655b3;
+    height: 100px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: #3655b3;
+}
+
+.nav-links a:hover {
+    background-color: #e5a300;
+}
+
+.second-nav-links a {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    color: white;
+    background-color: #3655b3;
+}
+
+.second-nav-links a:hover {
+    color: #3655b3;
+    background-color: #e5a300;
+}
+
+.register {
+    background-color: #3655b3;
+    color: white !important;
+    border-radius: 20px;
+}
+
+/* Icons */
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #3655b3;
+    cursor: pointer;
+}
+
+/* Notification Popup */
+.notification-popup {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 320px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    z-index: 10;
+}
+
+.notif-card {
+    background: #fddde6;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.notif-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.notif-content {
+    flex: 1;
+}
+.notif-time, .notif-date {
+    color: grey;
+}
+.notif-content h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.notif-content p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: gray;
+}
+
+/* Borrow Form */
+.borrow-form {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: auto; 
+}
+
+.borrow-form label {
+    display: block;
+    font-weight: 600;
+    margin: 10px 0 5px;
+    text-align: left; 
+}
+
+.borrow-form select, .borrow-form input {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 15px; 
+}   
+
+.borrow-btn {
+    background-color: #3655b3;
+    color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.borrow-btn:hover {
+    background-color: black;
+}
+
